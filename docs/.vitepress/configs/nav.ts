@@ -2,13 +2,14 @@ import type { DefaultTheme } from 'vitepress'
 // 导航栏设置
 
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '导航', link: 'nav' },
+  // { text: '导航', link: 'nav' },
   { text: '文档记录', items: Nav_Docs(), activeMatch: '/skill/' },
+  { text: '公职信息', items: Nav_Vps(), activeMatch: '/VPS/' },
   { text: '前端物语', items: Nav_Fe(), activeMatch: '/fe/' },
-  { text: 'VPS使用指南', items: Nav_Vps(), activeMatch: '/VPS/' },
-  { text: 'ESXI安装指南', items: Nav_Esxi(), activeMatch: '/ESXI/' },
-  { text: '青龙面板', items: Nav_Ql(), activeMatch: '/Docker/' },
-  { text: '我的网站', items: Nav_Zd() }
+
+  // { text: 'ESXI安装指南', items: Nav_Esxi(), activeMatch: '/ESXI/' },
+  // { text: '青龙面板', items: Nav_Ql(), activeMatch: '/Docker/' },
+  // { text: '我的网站', items: Nav_Zd() }
 ]
 
 // 文档记录
@@ -16,9 +17,12 @@ export function Nav_Docs() {
   return [
     {
       items: [
-        { text: '日常记录', link: '/skill/JL-01' },
-        { text: '入门指南', link: '/skill/RM-01' },
-        { text: '梅林操作文档', link: '/skill/ML-01' }
+        { text: '介绍', link: '/skill/JL-02' },
+        { text: '按键操作', link: '/skill/JL-01' },
+        { text: '服务器手册', link: '/skill/JL-03' },
+        { text: '音乐外链如何使用', link: 'https://mp3.ltyuanfang.cn/' },
+        { text: '音乐外链', link: 'https://mp3.ltyuanfang.cn/' },
+        // { text: '梅林操作文档', link: '/skill/ML-01' }
       ]
     }
   ]
@@ -51,9 +55,9 @@ export function Nav_Vps() {
   return [
     {
       items: [
-        { text: '基础设置', link: '/VPS/01' },
-        { text: '进阶使用', link: '/VPS/02' },
-        { text: '搭建服务', link: '/VPS/06' }
+        { text: 'LSPD', link: '' },
+        { text: 'LSFD', link: '' },
+        { text: 'CH', link: '' }
       ]
     }
   ]

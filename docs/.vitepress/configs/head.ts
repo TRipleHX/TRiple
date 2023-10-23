@@ -5,7 +5,7 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 
 export const head: HeadConfig[] = [
   // 设置图标
-  ['link', { rel: 'icon', href: 'https://theovan.xyz/avatar.jpg' }],
+  ['link', { rel: 'icon', href: 'avatar.png' }],
   // 设置主题颜色
   ['meta', { name: 'theme-color', content: '#5f67ee' }],
   // 设置og类型

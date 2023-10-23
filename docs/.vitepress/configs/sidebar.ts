@@ -26,63 +26,64 @@ export function Sidebar_Skill() {
       base: '/skill/',
       // 分组页面
       items: [
-        { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' },
-        { text: '使用 GPG 签名 Git Commit', link: 'JL-10' },
-        { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
-        { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
-        { text: 'VitePress实现单击图片放大', link: 'JL-07' },
-        { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
-        { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' },
-        { text: 'VS Code 使用技巧', link: 'JL-04' },
-        { text: 'VitePress 添加 Giscu评论', link: 'JL-03' },
-        { text: 'PicGo + Github 搭建图床', link: 'JL-01' }
+        // { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' },
+        // { text: '使用 GPG 签名 Git Commit', link: 'JL-10' },
+        // { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
+        // { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
+        // { text: 'VitePress实现单击图片放大', link: 'JL-07' },
+        // { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
+        // { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' },
+        // { text: 'VS Code 使用技巧', link: 'JL-04' },
+        { text: '介绍', link: 'JL-02' },
+        { text: '服务器手册', link: 'JL-03' },
+        { text: '按键操作', link: 'JL-01' }
       ]
     },
-    {
-      // 分组名称
-      text: '入门指南',
-      // 下拉开关
-      // collapsed: true,
-      // 分组路径
-      base: '/skill/',
-      // 分组页面
-      items: [
-        { text: 'Homebrew', link: 'RM-01' },
-        { text: 'Git', link: 'RM-02' },
-        { text: 'Docker', link: 'RM-03' },
-        { text: 'Linux', link: 'RM-04' },
-        { text: 'Markdown', link: 'RM-05' },
-        { text: 'PNPM', link: 'RM-06' }
-      ]
-    },
-    {
-      // 分组名称
-      text: '梅林操作文档',
-      // 下拉开关
-      // collapsed: true,
-      // 分组路径
-      base: '/skill/',
-      // 分组页面
-      items: [
-        { text: '刷机需知', link: 'ML-01' },
-        {
-          text: '科学上网',
-          collapsed: true,
-          items: [
-            { text: '科学上网 - 安装', link: 'ML-02' },
-            { text: '科学上网 - 配置', link: 'ML-04' }
-          ]
-        },
-        {
-          text: 'Merlin Clash',
-          collapsed: true,
-          items: [
-            { text: 'Merlin Clash - 安装', link: 'ML-03' },
-            { text: 'Merlin Clash - 配置', link: 'ML-05' }
-          ]
-        }
-      ]
-    }
+    // {
+    //   // 分组名称
+    //   text: '入门指南',
+    //   // 下拉开关
+    //   // collapsed: true,
+    //   // 分组路径
+    //   base: '/skill/',
+    //   // 分组页面
+    //   items: [
+    //     { text: 'Homebrew', link: 'RM-01' },
+    //     { text: 'Git', link: 'RM-02' },
+    //     { text: 'Docker', link: 'RM-03' },
+    //     { text: 'Linux', link: 'RM-04' },
+    //     { text: 'Markdown', link: 'RM-05' },
+    //     { text: 'PNPM', link: 'RM-06' }
+    //   ]
+    // },
+    // {
+    //   // 分组名称
+    //   text: '梅林操作文档',
+    //   // 下拉开关
+    //   // collapsed: true,
+    //   // 分组路径
+    //   base: '/skill/',
+    //   // 分组页面
+    //   items: [
+    //     { text: '刷机需知', link: 'ML-01' },
+    //     {
+    //       text: '科学上网',
+    //       collapsed: true,
+    //       items: [
+    //         { text: '科学上网 - 安装', link: 'ML-02' },
+    //         { text: '科学上网 - 配置', link: 'ML-04' }
+    //       ]
+    //     },
+    //     {
+    //       text: 'Merlin Clash',
+    //       collapsed: true,
+    //       items: [
+    //         { text: 'Merlin Clash - 安装', link: 'ML-03' },
+    //         { text: 'Merlin Clash - 配置', link: 'ML-05' }
+    //       ]
+    //     }
+    //   ]
+    // }
   ]
 }
 
