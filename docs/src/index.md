@@ -54,7 +54,7 @@ features:
       src: LSFD.jpg
       width: 30
     # details: ESXI安装过程全解析</br>安装OpenWrt...
-    link: /ESXI/ESXI-01
+    # link: /ESXI/ESXI-01
     # linkText: ESXI安装指南
 
   - title: LSFD
@@ -62,7 +62,7 @@ features:
       src: LSPD.jpg
       width: 30
     # details: 安装青龙面板</br>搭建京东签到与阿里云盘签到</br>获取<small>京东Cookie/阿里云盘Cookie</small>
-    link: /Docker/QL-01
+    # link: /Docker/QL-01
     # linkText: 青龙面板
 
   - title: 服务器更新日志
