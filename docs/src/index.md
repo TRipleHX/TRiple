@@ -42,9 +42,9 @@ features:
     # linkText: 前端常用知识/
 
   - title: KOOK
-    icon:
-      src: https://img.kookapp.cn/assets/item/resources/logo.png
-      width: 40
+    icon: 
+     src: /logo.webp
+      # width: 40
     details: Huxaxia-Roleplay/KOOK
     link: https://kook.top/xHtFJe
     # linkText: VPS使用指南
