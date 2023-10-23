@@ -3,9 +3,9 @@ layout: home
 title: 首页
 titleTemplate: Theo Notes
 hero:
-  name: Note library
+  name: Note
   text:
-  tagline: You don't have to be the same
+  tagline: You 
   image: /home.png
   actions:
     - theme: brand
