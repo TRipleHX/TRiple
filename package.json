@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "prettier": "3.0.3",
+    "sass": "^1.69.4",
+    "vitepress": "1.0.0-rc.23"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@mdit-vue/shared": "^1.0.0",
+    "@vercel/analytics": "^1.1.1",
+    "medium-zoom": "^1.0.8",
+    "vitepress-markdown-timeline": "^1.2.1",
+    "vue": "^3.3.6"
+  }
+}
